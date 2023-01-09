@@ -1,2 +1,3 @@
-# cp1972.github.io
-Public slides
+# Public Slides T1 Vorlesung
+
+Öffentliche Zusammenfassung von der T1 Vorlesung.
