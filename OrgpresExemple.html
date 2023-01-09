@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Présentation avec Org-mode</title>
+<meta name="author" content="Prof. Dr. Christian Papilloud"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./lisp/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="./lisp/reveal.js/dist/theme/serif.css" id="theme"/>
+
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide" data-background="./images/covermlu.png" data-background-size="1300px"><h1>Présentation avec Org-mode</h1>Prof. Dr. Christian Papilloud
+</section>
+
+<section>
+<section id="slide-org48b039e" data-background="./images/normslidemlu.png" data-background-size="1300px">
+<h2 id="org48b039e">Slide one</h2>
+<p>
+ma super présentation
+</p>
+
+<ul>
+<li>une manière différente de faire un long titre</li>
+<li>deux</li>
+
+</ul>
+
+
+<ol>
+<li>trois</li>
+<li>quatre</li>
+
+</ol>
+
+</section>
+</section>
+<section>
+<section id="slide-org2d21b9c" data-background="./images/normslidemlu.png" data-background-size="1300px">
+<h2 id="org2d21b9c">Slide two</h2>
+<p>
+mon autre super slide
+</p>
+
+<p>
+A retenir: customizer les images en fond de slides pour pouvoir ajouter header ou footer car les hooks de reveal js ne permettent pas une telle customization
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="./lisp/reveal.js/dist/reveal.js"></script>
+<script src="./lisp/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="./lisp/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="./lisp/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown, RevealZoom, RevealNotes]
+});
+
+</script>
+</body>
+</html>
